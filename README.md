@@ -551,7 +551,7 @@ it unless you intentionally change the indexing configuration.
 ### 7. Run CLI mode
 
 ``` bash
-python CLI.py
+python Main.py
 ```
 
 ### 8. Run the Streamlit UI
