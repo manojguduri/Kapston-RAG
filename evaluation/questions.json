@@ -1,0 +1,296 @@
+[
+  {
+    "question": "What is the full name of the company?",
+    "type": "supported",
+    "expected_pages": [3,18],
+    "should_retrieve": true
+  },
+  {
+    "question": "What type of business is Kapston Home Services?",
+    "type": "supported",
+    "expected_pages": [3],
+    "should_retrieve": true
+  },
+  {
+    "question": "What is Kapston Home Services' brand statement?",
+    "type": "supported",
+    "expected_pages": [3,18],
+    "should_retrieve": true
+  },
+  {
+    "question": "What booking methods can customers use to book Kapston services?",
+    "type": "supported",
+    "expected_pages": [3,10],
+    "should_retrieve": true
+  },
+  {
+    "question": "What is Kapston Home Services' stated vision?",
+    "type": "supported",
+    "expected_pages": [4],
+    "should_retrieve": true
+  },
+  {
+    "question": "What is Kapston Home Services' stated mission?",
+    "type": "supported",
+    "expected_pages": [4],
+    "should_retrieve": true
+  },
+  {
+    "question": "What is the purpose of Kapston Home Services according to the company?",
+    "type": "supported",
+    "expected_pages": [4],
+    "should_retrieve": true
+  },
+  {
+    "question": "What services are offered through InstaAssist?",
+    "type": "supported",
+    "expected_pages": [5],
+    "should_retrieve": true
+  },
+  {
+    "question": "What beauty services are offered for women?",
+    "type": "supported",
+    "expected_pages": [5],
+    "should_retrieve": true
+  },
+  {
+    "question": "What grooming services are offered for men?",
+    "type": "supported",
+    "expected_pages": [5],
+    "should_retrieve": true
+  },
+  {
+    "question": "What types of spa services does Kapston offer for women?",
+    "type": "supported",
+    "expected_pages": [5],
+    "should_retrieve": true
+  },
+  {
+    "question": "What types of spa services does Kapston offer for men?",
+    "type": "supported",
+    "expected_pages": [6],
+    "should_retrieve": true
+  },
+  {
+    "question": "Does Kapston provide pest control services?",
+    "type": "supported",
+    "expected_pages": [7],
+    "should_retrieve": true
+  },
+  {
+    "question": "What home painting services are available?",
+    "type": "supported",
+    "expected_pages": [7],
+    "should_retrieve": true
+  },
+  {
+    "question": "What small-appliance repair services are offered?",
+    "type": "supported",
+    "expected_pages": [7],
+    "should_retrieve": true
+  },
+  {
+    "question": "What AC services does Kapston provide?",
+    "type": "supported",
+    "expected_pages": [7],
+    "should_retrieve": true
+  },
+  {
+    "question": "What types of plumbing services are included in the company's service portfolio?",
+    "type": "supported",
+    "expected_pages": [8],
+    "should_retrieve": true
+  },
+  {
+    "question": "What commitments does Kapston make about the professionals who deliver its services?",
+    "type": "supported",
+    "expected_pages": [9],
+    "should_retrieve": true
+  },
+  {
+    "question": "Does Kapston promise transparent pricing without hidden charges?",
+    "type": "supported",
+    "expected_pages": [3,9],
+    "should_retrieve": true
+  },
+  {
+    "question": "What are the different levels of customer escalation?",
+    "type": "supported",
+    "expected_pages": [17],
+    "should_retrieve": true
+  },
+  {
+    "question": "How long does a customer have to submit a refund request after a service?",
+    "type": "supported",
+    "expected_pages": [14],
+    "should_retrieve": true
+  },
+  {
+    "question": "How long does an approved refund take to process?",
+    "type": "supported",
+    "expected_pages": [14],
+    "should_retrieve": true
+  },
+  {
+    "question": "Are booking or platform convenience fees refundable?",
+    "type": "supported",
+    "expected_pages": [14],
+    "should_retrieve": true
+  },
+  {
+    "question": "What happens if Kapston or a service partner cancels a booking?",
+    "type": "supported",
+    "expected_pages": [14],
+    "should_retrieve": true
+  },
+  {
+    "question": "Are Kapston's service professionals independent contractors?",
+    "type": "supported",
+    "expected_pages": [10, 11, 15, 19],
+    "should_retrieve": true
+  },
+  {
+    "question": "What law governs Kapston's Terms and Conditions?",
+    "type": "supported",
+    "expected_pages": [15],
+    "should_retrieve": true
+  },
+  {
+    "question": "What personal information does Kapston say it collects?",
+    "type": "supported",
+    "expected_pages": [16],
+    "should_retrieve": true
+  },
+  {
+    "question": "Does Kapston say that it sells or rents customer personal data?",
+    "type": "supported",
+    "expected_pages": [16],
+    "should_retrieve": true
+  },
+  {
+    "question": "What rights do customers have regarding their personal data?",
+    "type": "supported",
+    "expected_pages": [16],
+    "should_retrieve": true
+  },
+  {
+    "question": "What is Kapston Home Services' customer support phone number?",
+    "type": "supported",
+    "expected_pages": [18],
+    "should_retrieve": true
+  },
+  {
+    "question": "What exact percentage commission does Kapston charge service professionals?",
+    "type": "out_of_scope",
+    "expected_pages": [],
+    "should_retrieve": false
+  },
+  {
+    "question": "What is the maximum amount Kapston will compensate a customer if a technician damages their furniture?",
+    "type": "negative_supported",
+    "expected_pages": [19],
+    "should_retrieve": true
+  },
+  {
+    "question": "How many employees does Kapston Home Services currently have?",
+    "type": "out_of_scope",
+    "expected_pages": [],
+    "should_retrieve": false
+  },
+  {
+    "question": "What is the exact price of a full-home deep cleaning service?",
+    "type": "negative_supported",
+    "expected_pages": [7, 19],
+    "should_retrieve": true
+  },
+  {
+    "question": "Does Kapston provide a warranty for every repair service?",
+    "type": "negative_supported",
+    "expected_pages": [19],
+    "should_retrieve": true
+  },
+  {
+    "question": "What is the exact training curriculum used to certify Kapston's massage therapists?",
+    "type": "negative_supported",
+    "expected_pages": [11],
+    "should_retrieve": true
+  },
+  {
+    "question": "What payment gateway does Kapston use for processing customer payments?",
+    "type": "negative_supported",
+    "expected_pages": [15, 16],
+    "should_retrieve": true
+  },
+  {
+    "question": "What is the exact name of Kapston's current Grievance Officer?",
+    "type": "negative_supported",
+    "expected_pages": [15, 17, 19],
+    "should_retrieve": true
+  },
+  {
+    "question": "What is the company's exact registered GST number?",
+    "type": "out_of_scope",
+    "expected_pages": [],
+    "should_retrieve": false
+  },
+  {
+    "question": "What is the chemical formula for water?",
+    "type": "out_of_scope",
+    "expected_pages": [],
+    "should_retrieve": false
+  },
+  {
+    "question": "Who wrote the novel Project Hail Mary?",
+    "type": "out_of_scope",
+    "expected_pages": [],
+    "should_retrieve": false
+  },
+  {
+    "question": "What is the capital city of Australia?",
+    "type": "out_of_scope",
+    "expected_pages": [],
+    "should_retrieve": false
+  },
+  {
+    "question": "Who is the current Prime Minister of Japan?",
+    "type": "out_of_scope",
+    "expected_pages": [],
+    "should_retrieve": false
+  },
+  {
+    "question": "What is the current population of Hyderabad?",
+    "type": "out_of_scope",
+    "expected_pages": [],
+    "should_retrieve": false
+  },
+  {
+    "question": "What programming language was Python written in?",
+    "type": "out_of_scope",
+    "expected_pages": [],
+    "should_retrieve": false
+  },
+  {
+    "question": "What is the largest planet in the Solar System?",
+    "type": "out_of_scope",
+    "expected_pages": [],
+    "should_retrieve": false
+  },
+  {
+    "question": "What is the weather in Hyderabad today?",
+    "type": "out_of_scope",
+    "expected_pages": [],
+    "should_retrieve": false
+  },
+  {
+    "question": "What is the stock price of Kapston Services Limited today?",
+    "type": "out_of_scope",
+    "expected_pages": [],
+    "should_retrieve": false
+  },
+  {
+    "question": "Who won the 2026 FIFA World Cup?",
+    "type": "out_of_scope",
+    "expected_pages": [],
+    "should_retrieve": false
+  }
+]
