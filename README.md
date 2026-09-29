@@ -797,29 +797,3 @@ through the project's `.env` file.
     processes.
 -   Evaluation results are specific to this document, model
     configuration, and 49-question evaluation set.
-
-------------------------------------------------------------------------
-
-## Key Takeaway
-
-The project treats RAG as a pipeline rather than a single model:
-
-``` text
-Source Document
-      ↓
-Chunking
-      ↓
-Embeddings
-      ↓
-Candidate Retrieval
-      ↓
-Rank Fusion
-      ↓
-Reranking
-      ↓
-Grounded Context
-      ↓
-Generation
-      ↓
-Answer
-```
