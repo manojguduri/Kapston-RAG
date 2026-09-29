@@ -481,18 +481,9 @@ cd Kapston-RAG
 
 ### 2. Create a virtual environment
 
-Windows:
-
 ``` bash
 python -m venv .venv
 .venv\Scripts\activate
-```
-
-macOS/Linux:
-
-``` bash
-python -m venv .venv
-source .venv/bin/activate
 ```
 
 ### 3. Install dependencies
@@ -832,10 +823,3 @@ Generation
       ↓
 Answer
 ```
-
-A failure at each stage requires a different solution.
-
-The central development principle for this project was therefore:
-
-> **Measure the failure stage first, change one component for a reason,
-> and keep the change only when evaluation supports it.**
